@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/index.js"></script>
         <title>Daysy</title>
     </head>
     <body>
@@ -17,35 +18,16 @@
                 </div>
                 <div class = "logo">
                     <div class="navtool">
-                        <div class = "navbut">ABOUT</div>
-                        <div class = "navbut">PORTFOLIO</div>
-                        <div class = "navbut">SERVICES</div>
-                        <div class = "navbut">CONTACTS</div>
+                        <a href="#threemain"><div class = "navbut">ABOUT</div></a>
+                        <a href="#sevenmain"><div class = "navbut">PORTFOLIO</div></a>
+                        <a href="#onemain"><div class = "navbut">SERVICES</div></a>
+                        <a href="#team"><div class = "navbut">CONTACTS</div></a>
                     </div>
                 </div>
             </div>
-            
             <div class = "maintext">
                 <div class="centertext">
-                    <div class="text">
-                        <svg 
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="1.653in" height="0.278in">
-                        <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="8px" stroke-linecap="butt" stroke-linejoin="miter" opacity="0.2" fill="rgb(255, 255, 255)"
-                        d="M4.000,11.995 L4.000,3.991 L111.000,3.991 L111.000,11.995 L4.000,11.995 Z"/>
-                        </svg>
-                    </div>
-                    <div class="text">SOFT FOR YOUR BUSINES</div>
-                    <div class="text">
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="1.653in" height="0.278in">
-                        <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="8px" stroke-linecap="butt" stroke-linejoin="miter" opacity="0.2" fill="rgb(255, 255, 255)"
-                        d="M4.000,11.995 L4.000,3.991 L111.000,3.991 L111.000,11.995 L4.000,11.995 Z"/>
-                    </svg>
-                    </div>
+                    <div class="text">SOFT FOR YOUR BUSINES</div> 
                 </div>
                 <div class="text2">Your clients on the internet. Learn how to receive them.</div>
             </div>
@@ -110,12 +92,12 @@
                 <div class="centralcontmain">
                     <div class="title">Expand your business</div>
                     <div class="but">
-                        <button>Join Us</button>
+                        <input type="button" onclick="OurTeam()" value="Join Us">
                     </div>
                 </div>
             </div>
             <div class = "slider">
-                <a href="#formain">
+                <a href="#threemain">
                     <img src="./img/slider.png" alt="nothing">
                 </a>
             </div>
@@ -132,7 +114,7 @@
                 <img src="./img/lines.png" alt="!!!!">
             </div>
             <div class = "slider">
-                <a href="#threemain">
+                <a href="#formain">
                     <img src="./img/slider.png" alt="nothing">
                 </a>
             </div>
@@ -148,19 +130,19 @@
                 <div class="left">
                     <div class="litetitle">Landing Pages</div>
                     <div class="text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam </div>
-                    <button>More details</button>
+                    <input type="button" onclick="MoreDetails()" value="More details">
                 </div>
                 <div class="right">
                     <img src="./img/devices.png" alt="dev">
                 </div>
             </div>
             <div class = "slider">
-                <a href="fivemain">
+                <a href="#fivemain">
                     <img src="./img/slider.png" alt="nothing">
                 </a>
             </div>
         </div>
-        <div class="fivemain">
+        <div id='fivemain' class="fivemain">
             <div class="blocks">
                 <div class="left">
                     <img src="./img/devices2.png" alt="">
@@ -168,7 +150,7 @@
                 <div class="right">
                     <div class="litetitle">advertising</div>
                     <div class="text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam </div>
-                    <button>Mote Details</button>
+                    <input type="button" onclick="MoreDetails()" value="More Details">
                 </div>
             </div>
             <div class = "slider">
@@ -177,24 +159,24 @@
                 </a>
             </div>
         </div>
-        <div id="#sixmain" class="sixmain">
+        <div id="sixmain" class="sixmain">
             <div class="blocks">
                 <div class="left">
                     <div class="litetitle">marketing kit</div>
                     <div class="text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam</div>
-                    <button>More Dateils</button>
+                    <input type="button" onclick="MoreDetails" value="More Dateils">
                 </div>
                 <div class="right">
                     <img src="./img/book.png" alt="">
                 </div>
             </div>
             <div class = "slider">
-                <a href="sevenmain">
+                <a href="#sevenmain">
                     <img src="./img/slider.png" alt="nothing">
                 </a>
             </div>
         </div>
-        <div class="sevenmain">
+        <div id="sevenmain" class="sevenmain">
             <div class="onelogo">
                 <div class="onelogohead">portfolio</div>
                 <div class="betwen">
@@ -210,15 +192,15 @@
                 <img src="./img/portfolio.png" alt="">
             </div>
             <div class="button">
-                <button>I want landing page</button>
+                <input type="button" onclick='location.href="#team"' value="I want landing page">
             </div>
             <div class = "slider">
-                <a href="sevenmain">
+                <a href="#team">
                     <img src="./img/slider.png" alt="nothing">
                 </a>
             </div>
         </div>
-        <div class="team">
+        <div id="team" class="team">
             <div class="onelogo">
                 <div class="onelogohead">OUR TEAM</div>
                 <div class="betwen">

@@ -2,26 +2,30 @@
 @font-face { font-family: 'PFEThin';  src: local('PFEncoreSansPro-Thin'), url('https://nomail.com.ua/files/woff/c6f7922c844363ba55a8fe35e21b2c43.woff') format('woff'); }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
-        .stuff .teamuser{
-            display: block;
-            width: 100%;
-        }
-
-        .main .stuff{
-            margin: 2% 13% 0;
-        }
-
-        .blocks .left{
-            display: block;
-            width: 100%;
-        }
-
-        .blocks .right{
-            display: block;
-            width: 100%;
-        }
-
+    body{
+        height: 1050%
     }
+
+    .stuff .teamuser{
+        display: block;
+        width: 100%;
+    }
+
+    .main .stuff{
+         margin: 2% 13% 0;
+    }
+
+    .blocks .left{
+        display: block;
+        width: 100%;
+     }
+
+    .blocks .right{
+        display: block;
+        width: 100%;
+    }
+
+}
 
 
 
@@ -62,6 +66,10 @@ header{
 
 p{
     display: inline;
+}
+
+a{
+    color: white;
 }
 
 .nav{
@@ -112,12 +120,12 @@ p{
     margin: 2em;
 }
 
-.navtool > .navbut {
+.navtool > a {
     color: white;
     text-decoration: none;
 }
 
-.navtool > .navbut:hover {
+.navtool > a:hover {
     color: #fc635e;
     text-decoration: underline;
 }
@@ -258,7 +266,7 @@ p{
     font-family: 'PFEBold';
 }
 
-.but button{
+.but input{
     background: none;
     padding: 1% 4% 1%;
     border-radius: 10px;
@@ -338,7 +346,7 @@ p{
     font-family: 'PFEThin';
     font-size: 1em;
 }
-.left button{
+.left input{
     color: white;
     background: #fc635e;
     border-radius: 10px;
@@ -359,7 +367,7 @@ p{
     display: block;
 }
 
-.fivemain button{
+.fivemain input{
     float: right;
     color: white;
     background: #fc635e;
@@ -367,10 +375,14 @@ p{
 }
 .fivemain .litetitle{
     float: right;
+    text-transform: uppercase;
     font-family: 'PFEBold';
     font-size: 2em;
 }
 
+.litetitle{
+    text-transform: uppercase;
+}
 .fivemain .text{
     font-family: 'PFEThin';
     font-size: 1em;
@@ -431,7 +443,7 @@ p{
     top: 80%;
 }
 
-.button button{
+.button input{
     color: white;
     background: #fc635e;
     border-radius: 10px;
@@ -471,4 +483,8 @@ footer{
 footer img{
     display: block;
     width: 100%;
+}
+
+.onelogohead{
+    text-transform: uppercase;
 }

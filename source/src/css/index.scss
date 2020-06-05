@@ -30,8 +30,6 @@
 
 
 
-
-
 body{
     position: absolute;
     display: block;
@@ -201,10 +199,12 @@ a{
     text-align: center;
 }
 
-.onetext img{
-    display: flex;
-    margin: 0em auto 1.5em;
-}
+.onetext{
+    img{
+        display: flex;
+        margin: 0em auto 1.5em;
+    }
+} 
 
 .name{
     margin:  0 0 5%;
@@ -252,17 +252,20 @@ a{
     font-family: 'PFEBold';
 }
 
-.but input{
-    background: none;
-    padding: 1% 4% 1%;
-    border-radius: 10px;
-    margin-top: 3%;
-    font-size: 1.5em;
-    font-family: 'PFEThin';
-    color: red;
-    text-decoration: none;
-    border: 2px solid red;
-}
+.but{
+    input{
+        background: none;
+        padding: 1% 4% 1%;
+        border-radius: 10px;
+        margin-top: 3%;
+        font-size: 1.5em;
+        font-family: 'PFEThin';
+        color: red;
+        text-decoration: none;
+        border: 2px solid red;
+    }
+    
+} 
 
 .threemain{
     position: relative;
@@ -272,9 +275,11 @@ a{
     color: #adadad;
 }
 
-.threemain .textline{
-    text-align: center;
-}
+.threemain{
+    .textline{
+        text-align: center;
+    }
+} 
 
 .step {
     display: flex;
@@ -283,9 +288,10 @@ a{
     justify-content: center;
 }
 
-.step img{
+.step {
+    img{
     width: auto;
-
+    }
 }
 
 .formain{
@@ -298,9 +304,11 @@ a{
     background-size: cover;
 }
 
-.formain .onelogo{
-    display: block;
-    margin: 9% 13% 5%;
+.formain {
+    .onelogo{
+        display: block;
+        margin: 9% 13% 5%;
+    }
 }
 
 .blocks{
@@ -310,33 +318,44 @@ a{
     margin: 0 13% 0;
 }
 
-.blocks .left{
-    display: block;
-    float: left;
-    width: 50%;
-    margin: auto 0 auto;
-}
+.blocks {
+    .left{
+        display: block;
+        float: left;
+        width: 50%;
+        margin: auto 0 auto;
+    }
+} 
 
-.blocks .right{
-    display: block;
-    float: left;
-    width: 50%;
-}
+.blocks{
+    .right{
+        display: block;
+        float: left;
+        width: 50%;
+    }
+} 
 
-.left .litetitle{
-    font-family: 'PFEBold';
-    font-size: 2em;
-}
+.left{
+    .litetitle{
+        font-family: 'PFEBold';
+        font-size: 2em;
+    }
+} 
 
-.left .text{
-    font-family: 'PFEThin';
-    font-size: 1em;
-}
-.left input{
-    color: white;
-    background: #fc635e;
-    border-radius: 10px;
-}
+.left{
+    .text{
+        font-family: 'PFEThin';
+        font-size: 1em;
+    }
+} 
+
+.left{
+    input{
+        color: white;
+        background: #fc635e;
+        border-radius: 10px;
+    }
+} 
 
 
 .fivemain{
@@ -347,32 +366,41 @@ a{
     color: #adadad;
 }
 
-.fivemain .blocks{
-    margin: 0 13% 0;
-    width: 74%;
-    display: block;
-}
+.fivemain{
+    .blocks{
+        margin: 0 13% 0;
+        width: 74%;
+        display: block;
+    }
+} 
 
-.fivemain input{
-    float: right;
-    color: white;
-    background: #fc635e;
-    border-radius: 10px;
-}
-.fivemain .litetitle{
-    float: right;
-    text-transform: uppercase;
-    font-family: 'PFEBold';
-    font-size: 2em;
+.fivemain{
+    input{
+        float: right;
+        color: white;
+        background: #fc635e;
+        border-radius: 10px;
+    }
+} 
+.fivemain {
+    .litetitle{
+        float: right;
+        text-transform: uppercase;
+        font-family: 'PFEBold';
+        font-size: 2em;
+    }
 }
 
 .litetitle{
     text-transform: uppercase;
 }
-.fivemain .text{
-    font-family: 'PFEThin';
-    font-size: 1em;
-    text-align: right;
+.fivemain{
+    .text{
+        font-family: 'PFEThin';
+        font-size: 1em;
+        text-align: right;
+    }
+    
 }
 
 .sixmain{
@@ -393,46 +421,58 @@ a{
     color: #adadad;
 }
 
-.sevenmain .menu{
-    margin: 5% 13% 0;
-    display: block;
-    
+.sevenmain{
+    .menu{
+        margin: 5% 13% 0;
+        display: block;
+        
+    }
+} 
+
+.menu{
+    .text{
+        display: block;
+        width:  100%;
+        font-family: 'PFEThin';
+        text-align: center;
+    }
+} 
+
+.menu{
+    img{
+        display: block;
+        width: 100%;
+    }
+} 
+
+.sevenmain {
+    .main{
+        display: block;
+        position: relative;
+        margin: 5% 13% 0;
+        overflow: hidden;
+        text-align: center;
+        align-items: center;
+    }
 }
 
-.menu .text{
-    display: block;
-    width:  100%;
-    font-family: 'PFEThin';
-    text-align: center;
-}
+.sevenmain{
+    .button{
+        display: block;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        top: 80%;
+    }
+} 
 
-.menu img{
-    display: block;
-    width: 100%;
-}
-
-.sevenmain .main{
-    display: block;
-    position: relative;
-    margin: 5% 13% 0;
-    overflow: hidden;
-    text-align: center;
-    align-items: center;
-}
-
-.sevenmain .button{
-    display: block;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    top: 80%;
-}
-
-.button input{
-    color: white;
-    background: #fc635e;
-    border-radius: 10px;
+.button{
+    input{
+        color: white;
+        background: #fc635e;
+        border-radius: 10px;
+    }    
 }
 
 .team{
@@ -446,13 +486,15 @@ a{
 }
 
 
-.team .stuff{
-    position: relative;
-    display: block;
-    text-align: center;
-    margin: 10% 13% 0;
-    font-family: 'PFEThin';
-}
+.team{
+    .stuff{
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 10% 13% 0;
+        font-family: 'PFEThin';
+    }
+} 
 
 .teamuser{
     display: block;
@@ -466,10 +508,12 @@ footer{
     height: auto;
 }
 
-footer img{
-    display: block;
-    width: 100%;
-}
+footer{
+    img{
+        display: block;
+        width: 100%;
+    }
+} 
 
 .onelogohead{
     text-transform: uppercase;

@@ -474,3 +474,19 @@ footer img{
 .onelogohead{
     text-transform: uppercase;
 }
+
+.newtextinput{
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
+.subbuttext{
+    background: none;
+    padding: 1% 4% 1%;
+    margin-top: 3%;
+    font-size: 1.5em;
+    font-family: 'PFEThin';
+    color: red;
+    text-decoration: none;
+}

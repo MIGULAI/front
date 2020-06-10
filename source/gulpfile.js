@@ -30,7 +30,7 @@ gulp.task('js', function(){
 
 gulp.task('watch', function(){
     gulp.watch('src/*.html', gulp.series('html')).on('change', browserSync.reload);
-    gulp.watch('src/css/**/*.css', gulp.series('css')).on('change', browserSync.reload);
+    gulp.watch('src/css/**/*', gulp.series('css')).on('change', browserSync.reload);
     gulp.watch('src/img/**/*', gulp.series('img')).on('change', browserSync.reload);
     gulp.watch('src/js/**/*.js', gulp.series('js')).on('change', browserSync.reload);
 });

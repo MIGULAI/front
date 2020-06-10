@@ -490,3 +490,15 @@ footer img{
     color: red;
     text-decoration: none;
 }
+
+.newtextinput:valid{
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
+.newtextinput:invalid{
+    color: black !important;
+    background-color: red !important;
+    border-color: black !important;
+}
